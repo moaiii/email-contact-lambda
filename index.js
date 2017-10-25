@@ -5,7 +5,7 @@ AWS.config.region = 'eu-west-1';
 var ses = new AWS.SES()
 
 var RECEIVER = 'christopher.melville@me.com'
-var SENDER = 'VERIFIED_EMAIL@example.com'
+var SENDER = 'christopher.melville@me.com'
 
 exports.handler = function (event, context) {
 
@@ -15,6 +15,7 @@ exports.handler = function (event, context) {
 }
 
 function sendEmail (event, done) {
+  console.log("event - ", event);
 	var params = {
 		Destination: {
 			ToAddresses: [
