@@ -1,0 +1,29 @@
+{
+  "name": "ambie-lambda-new-sendgrid-email",
+  "version": "1.0.0",
+  "description": "Microservice to send update emails to clients via SendGrid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emergemediagroup/ambie-lambda-new-sendgrid-email.git"
+  },
+  "keywords": [
+    "ambie",
+    "sendgrid",
+    "aws",
+    "api",
+    "email"
+  ],
+  "author": "Christopher Melville (Ambie)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emergemediagroup/ambie-lambda-new-sendgrid-email/issues"
+  },
+  "homepage": "https://github.com/emergemediagroup/ambie-lambda-new-sendgrid-email#readme",
+  "devDependencies": {
+    "sendgrid": "^5.1.1"
+  }
+}
